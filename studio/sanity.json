@@ -32,7 +32,11 @@
       "path": "./dashboardConfig.js"
     }
   ],
-  "server": {
-    "port": 8888
+  "env": {
+    "development": {
+      "server": {
+        "port": 8888
+      }
+    }
   }
 }
