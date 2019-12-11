@@ -31,5 +31,8 @@
       "implements": "part:@sanity/dashboard/config",
       "path": "./dashboardConfig.js"
     }
-  ]
+  ],
+  "server": {
+    "port": 8888
+  }
 }
